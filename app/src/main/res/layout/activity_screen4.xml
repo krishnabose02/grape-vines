@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-   android:layout_width="match_parent"
-    android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical">
-<TextView
-
-    android:id="@+id/textView"
-    android:visibility="gone"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"/>
+     android:layout_height="match_parent"
+    android:orientation="vertical">
+
     <LinearLayout
         android:visibility="gone"
         android:paddingHorizontal="12dp"
@@ -104,14 +97,27 @@
 
         </LinearLayout>
     </LinearLayout>
-
-
     <androidx.recyclerview.widget.RecyclerView
         android:visibility="visible"
         android:id="@+id/recycle_view"
 
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical">
+        <LinearLayout
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
 
 
+
+    </ScrollView>
 </LinearLayout>
