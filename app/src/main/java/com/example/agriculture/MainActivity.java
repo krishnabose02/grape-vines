@@ -35,24 +35,15 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(v -> {
             email= emailET.getText().toString().trim();
             password=passwordET.getText().toString().trim();
-            Log.i("user",email +" "+ password );
 
-            boolean isThere = false;
-            for(int i=0;i<userModels.size();i++){
-                Log.i("user",userModels.get(i).getEmail() + userModels.get(i).getPassword());
-               if(userModels.get(i).getEmail().equals(email) && userModels.get(i).getPassword().equals(password)){
-                 isThere=true;
-                break;
-               }
-
+            if(email.equals("") || password.equals("")){
+                Toast.makeText(this, "Wrong Credentials !", Toast.LENGTH_SHORT).show();
             }
-            if(isThere){
+            else{
                 Intent intent1=new Intent(MainActivity.this,Screen_2.class);
                 startActivity(intent1);
                 finish();
-            }
-            else{
-                Toast.makeText(this, "Wrong Credentials !", Toast.LENGTH_SHORT).show();
+
             }
 
 

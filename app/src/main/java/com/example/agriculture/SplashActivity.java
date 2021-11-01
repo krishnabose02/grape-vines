@@ -23,7 +23,7 @@ public class SplashActivity extends AppCompatActivity {
                CSVImporter importer = new CSVImporter(getApplicationContext());
                importer.importModels();
                importer.importUserModels();
-               Intent splashIntent= new Intent(SplashActivity.this,MainActivity.class);
+               Intent splashIntent= new Intent(SplashActivity.this,Screen_2.class);
                startActivity(splashIntent);
                finish();
            }
