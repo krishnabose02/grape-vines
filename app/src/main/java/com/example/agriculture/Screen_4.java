@@ -109,22 +109,9 @@ public class Screen_4 extends AppCompatActivity {
 //            InputStream image = getAssets().open(content.substring(2));
             Drawable d = Drawable.createFromStream(image, null);
             ImageView imageView = new ImageView(this);
-            Display display = getWindowManager().getDefaultDisplay();
-
-            int width = ((display.getWidth()*20)/100) ; //
-            // ((display.getWidth()*20)/100)
-            int height = ((display.getHeight()*30)/100);// ((display.getHeight()*30)/100)
-            LinearLayout.LayoutParams parms = new LinearLayout.LayoutParams(width,height);
-            imageView.setLayoutParams(parms);
-//            LinearLayout.LayoutParams parms = new LinearLayout.LayoutParams(50,50);
-//            imageView.setLayoutParams(parms);
-//            ViewGroup.LayoutParams params = new ViewGroup.LayoutParams(50, 50);
-//            imageView.setLayoutParams(params);
-//            imageView.getLayoutParams().height=100;
-//            imageView.getLayoutParams().width=100;
-
             imageView.setImageDrawable(d);
             imageView.setPadding(0,30,0,30);
+            imageView.setMinimumHeight(500);
             return imageView;
         } else {
             TextView textView = new TextView(this);

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple_200"
+    android:background="@color/green_700"
     tools:context=".SplashActivity">
 
     <TextView
@@ -52,9 +52,14 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/icar"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="341dp" />
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/splash_logo"
+        app:layout_constraintVertical_bias="0.526"
+        app:srcCompat="@drawable/icar" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
