@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/_5_kg_fresh_orange_500x500"
+    android:background="@drawable/grapes"
     android:layout_gravity="center"
     tools:context=".Screen_2">
 
@@ -46,7 +46,7 @@
         android:layout_marginBottom="20dp"
         android:fontFamily="@font/roboto_medium"
         android:padding="10dp"
-        android:text="iasr-indian agriculture statics research -new delhi"
+        android:text="IASRI - Indian Agricultural Statistics Research Institute"
         android:textAlignment="textStart"
         android:textAllCaps="true"
         android:textColor="@color/black"

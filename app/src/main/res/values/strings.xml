@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Angoor Guide</string>
+    <string name="app_name">GrapeCulture</string>
     <string name="user_id_email">user Id/Email</string>
     <string name="password">password</string>
     <string name="login">login</string>
