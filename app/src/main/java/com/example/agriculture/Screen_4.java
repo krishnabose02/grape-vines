@@ -104,7 +104,8 @@ public class Screen_4 extends AppCompatActivity {
             textView.setTypeface(null, Typeface.BOLD);
             return textView;
         } else if (type.equals("#I")) {
-            InputStream image = getAssets().open("grapes.jpeg");
+
+            InputStream image = getAssets().open(content.substring(2));
 //            InputStream image = getAssets().open(content.substring(2));
             Drawable d = Drawable.createFromStream(image, null);
             ImageView imageView = new ImageView(this);
