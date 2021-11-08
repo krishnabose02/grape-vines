@@ -2,9 +2,9 @@ id,parentId,title,type,document
 1,0,Introduction,document,"Grapes occupy a much larger area than by any other sub-tropical fruit in the world. In India, grape vineyards are mainly raised for table purpose. However, in major grape growing countries these are grown for raisin, juice and wine which provides greater profits to the growers.
 In northern India, grape growers have been facing problems in successfully producing grapes. A major problem was the lack of variety that could provide sweet, well-formed berries, suitable for table, juice or table and juice making, well before the onset of rains. Another problem was the complete absence of scientific vineyard management practices.
 Keeping the above situation in mind, this app was created."
-2,0,Soil and Climatic requirements,document,"Grape cultivation requires well-drained soils for optimum production but even sandy and gravelly soils have yielded good crops with adequate fertilizers and good cultivation practices.
-Grapes should not be cultivated in the soils having salt concentrations of 0.3% or more. The mechanism of damage due to salt stress has been worked out in the grape variety Perlette. The cells of root tips and leaves are considered the primary sites of damage which become apparent within 30 days of the introduction of salt stress in the soil. However, the damage due to salt concentration (up to a reasonable limit) can be minimized by the application of proline and/or cytokinins in the initial stages of planting Salt Creek and Dog Ridge may be used as resistant/tolerant rootstocks against salts.
-Grapes require warm, dry summer and cool winter. Rain during the fruiting season (May-June) is unfavourable and may result in loss of sweetness, uneven ripening and cracking of the berries."
+2,0,Soil and Climatic requirements,document,"• Grape cultivation requires well-drained soils for optimum production but even sandy and gravelly soils have yielded good crops with adequate fertilizers and good cultivation practices.
+• Grapes should not be cultivated in the soils having salt concentrations of 0.3% or more. The mechanism of damage due to salt stress has been worked out in the grape variety Perlette. The cells of root tips and leaves are considered the primary sites of damage which become apparent within 30 days of the introduction of salt stress in the soil. However, the damage due to salt concentration (up to a reasonable limit) can be minimized by the application of proline and/or cytokinins in the initial stages of planting Salt Creek and Dog Ridge may be used as resistant/tolerant rootstocks against salts.
+• Grapes require warm, dry summer and cool winter. Rain during the fruiting season (May-June) is unfavourable and may result in loss of sweetness, uneven ripening and cracking of the berries."
 3,0,Varieties,document,"#HBeauty Seedless
 #Ibeauty.jpeg
 An introduction from California (USA) which was recommended by IARI, New Delhi. It is an early maturing variety with well-filled conical bunch, small to medium in size. The berry is small, round and deep red to almost black with thick bloom; flesh tender and slightly acidic with one or two empty, rudimentary seeds and the skin medium thick. The TSS of the variety is 18-19%
@@ -73,7 +73,24 @@ Irrigation at 7 days interval (stop irrigation one week before maturity). Spray 
 Spraying with Blitox at the rate of 3 g in one litre of water at 15-20 days interval immediately after harvest up to September.
 #HNovember-December
 Last spray of Blitox at the rate of 3 g in one litre of water on dormant vines. No irrigation to dormant vines required during this period."
-8,4,Spacing ,document,"Spacing of the vines varies with training system and the variety. In central Maharashtra and north interior Karnataka, for bower trained Thompson Seedless vines a spacing of 1.2 x 3.6 m or 1.8 x 2.4 m is adopted. The spacing between the rows of the vines trained on 'T' trellis may vary from 1.8-2.4m. However, in case of tractor operation the row-to-row distance should be kept at 3m. The commonly followed spacing are 4.5 x 4.5m (Anab-e-Shahi), 7.2 x 3.6m (Bangalore Blue) and 3.0 x 3.0m for Perlette and Beauty Seedless varieties."
+8,4,Spacing ,document,"Spacing of the vines varies with training system and the variety. In central Maharashtra and north interior Karnataka, for bower trained Thompson Seedless vines a spacing of 1.2 x 3.6 m or 1.8 x 2.4 m is adopted. The spacing between the rows of the vines trained on 'T' trellis may vary from 1.8-2.4m. However, in case of tractor operation the row-to-row distance should be kept at 3m. The commonly followed spacing are 4.5 x 4.5m (Anab-e-Shahi), 7.2 x 3.6m (Bangalore Blue) and 3.0 x 3.0m for Perlette and Beauty Seedless varieties.
+#H• Row Spacing: 
+- 9 to 12 feet (depends on equipment size)
+#H• Vine Spacing within Rows: 
+- 6 to 8 feet (depends on vine vigor) 
+#H• Number of Vines per Acre: 
+ 6 x 9 =807
+ 7 x 9 =691
+ 8 x 9 =605 
+ 6 x 10 = 726 
+ 7 x 10 = 622 
+ 8 x 10 = 545 
+ 6 x 12 = 605 
+ 7 x 12 = 518 
+ 8 x 12 = 454 
+#H• Direction of Rows 
+- North / South Preferred
+- Across Slope or Contoured "
 9,4,Planting,document,"#Iplanting.jpeg
 Pits of 75 cm width and 75 cm depth are dug in December and filled with 1:1 mixture of top soil and farm yard manure. One kg of superphosphate (single) and 500 g of sulphate of potash may preferably be added to it. The soil is allowed to settle by one irrigation if there are no rains. One year old rooted cuttings are planted in each pit in the month of January. Soon after transplanting, the plant is headed back to single, stout and mature stem. The vines should be transplanted at the following spacing:
 Head system: 2m x 2m
@@ -107,60 +124,73 @@ It was developed by Williams Kniffin in 1850 in New York. This system is suitabl
 20,5,Pests,list,asd
 21,5,Diseases,list,asd
 22,5,Nutritional deficiencies,list,asd
-23,20,Flea beetles,document,"Flea beetles (Scelodonta    strigicollis)
+23,20,Flea beetles,document,"#HFlea beetles 
+#EScelodonta strigicollis
 #Ifleab.jpeg
 The adult beetles scrape the sprouting buds and eat them up completely after each pruning. Damaged buds fail to sprout. Insecticides like Imidacloprid 17.8 SL (0.30-0.40 ml/L), or Lambda-cyhalothrin 4.9 CS (0.25-0.50 ml/L)."
-24,20,Thrips,document,"Thrips (Rhiphiphorothrips cruentalis)
+24,20,Thrips,document,"#HThrips
+#ERhiphiphorothrips cruentalis
 #Ithrips.jpeg
 It attacks the ovaries of flowers and newly set berries and suck sap from them. Controlled by spraying Emamectin benzoate 05 SG (0.22 g/L), Fipronil 80 WG (0.05-0.0625 g/L), or Spinosad 45% SC (250 ml/ha). Prophylactic sprays of insecticides against thrips are given once in five days from the initiation of bloom to berry set."
-25,20,Mealy bugs,document,"Mealy bugs (Pseudococcus carymbatus and Planococcus lilacinus)
+25,20,Mealy bugs,document,"#HMealy bugs 
+#EPseudococcus carymbatus and Planococcus lilacinus
 #Imealyb.jpeg
 These are the most serious and problematic pests of grapes in India. Nymphs and adults suck sap from the tender shoots resulting in crinkling and stunting of the new shoots. Mealy bugs are hard-to-kill insects and the package of practices for their control in India is by avoiding spraying broad-spectrum insecticides particularly synthetic pyrethroids; spray only dichlorvos at 0.1 percent mixed with neem oil 0.2 percent or tridemorph at 0.1 per cent; release, Cryptolaemus montrozieri beetles at 8,000-10,000 per hectare when the berries start softening It can also be control through use of Methomyl 40SP (125 ml/L).  It is better to release a mixed population of grubs and adults rather than only adults."
-26,20,Leaf hoppers,document,"Leaf hoppers (Empoasca vitis)
+26,20,Leaf hoppers,document,"#HLeaf hoppers 
+#EEmpoasca vitis
 #Ileafyh.jpeg
 This pest has assumed serious proportions in all grape growing regions of India in recent years. The adults and young nymphs of hoppers suck sap exclusively from the lower side of the leaves. Carbaryl at 0.15 per cent, fenitrothion at 0.04 per cent, phosalone at 0.05 percent or quinalphos at 0.05 per cent is sprayed to control this pest."
-27,21,Anthracnose,document,"Bird’s Eye Spot or Anthracnose (Gloeosporium ampelophagum, Elsinoe amphelina)
+27,21,Anthracnose,document,"#HBird’s Eye Spot or Anthracnose 
+#EGloeosporium ampelophagum, Elsinoe amphelina
 #Ianthra.jpeg
 It appears first as dark red spots on the berry, which then become circular, sunken, ashy-gray and in later stages get surrounded by a dark margin. The fungus also attacks shoots, tendrils, petioles, leaf veins and the fruit stems. The spots gradually unite and girdle the stem, causing death of the tips. Commonly appear on warm wet weather in low lying and badly drained soils. It is managed by clipping of infected twigs. Spray of copper oxychloride 50 WP (2.5 g/L) or Propineb 70 WP (3.0 g/L) or Carbendazim 50 WP (1.0 g/L)."
-28,21,Downy mildew,document,"Downy mildew (Plasmo para viticola)
+28,21,Downy mildew,document,"#HDowny mildew 
+#EPlasmo para viticola
 #Idowny.jpeg
 It causes irregular, yellowish, translucent spots on the upper leaf surface and powdery growth on lower surface. Affected leaves become yellow, brown, dry and cause premature defoliation. Dwarfing of tender shoots, with brown, sunken lesions on the stem. White growth of fungus on berries, which subsequently become leathery and may shriveled. Infection of berries results in soft rot formation with no cracking. Optimum conditions for occurrence as 20-220C temp and relative humidity of 80-100 per cent. It can be controlled by spray of Bordeaux mixture (1%) or copper oxychloride 50 WP (2.5 g/L) or Propineb 70 WP (3.0 g/L) or Carbendazim 50 WP (1.0 g/L), Mancozeb 75 WP (1.5-2.0 g/L)."
-29,21,Powdery mildew,document,"Powdery mildew (Uncinula necator)
+29,21,Powdery mildew,document,"#HPowdery mildew 
+#EUncinula necator
 #Ipowdery.jpeg
 It causes symptoms as powdery like growth on upper surface of the leaves followed by malformation and discolouration of stem to dark brown, floral infection cause shedding of flowers and poor fruit set, early berry infection results in shedding of affected berries. At later stages, appear as powdery growth and cracking of skin and occurrence is almost certain during sultry warm conditions with dull cloudy weather. This disease can be managed by spray of Sulphur WP 80 (2.5 g/L) or Tetraconazole 3.8 EW (0.75/L), or Penconazole 10 EC (0.50/L, or Hexaconazole 5 EC (1.0 ml/L)."
-30,21,Bacterial leaf spot,document,"Bacterial leaf spot (Xanthomonas campestris pv. Viticola)
-#lbact.jpeg
+30,21,Bacterial leaf spot,document,"#HBacterial leaf spot 
+#EXanthomonas campestris pv. Viticola
+#Ibacta.jpeg
 The symptoms appear as minute water-soaked spots on the lower surface of the leaves, especially along the main and lateral veins. Streptocyclin at 500 ppm is used as a prophylactic spray, while Bordeaux mixture at 0.8 percent or copper oxychloride at 0.15 percent is used to check its spread or Kasugamycin 5% + Copper Oxychloride 45% WP (750 g/ha)."
-31,22,Nitrogen,document,"N is mostly acquired by plants in the nitrate and ammonium forms and for a small part as small organic molecules (e.g., amino acids, urea.) Nitrogen is necessary for many vine functions, including overall vine growth, fruit bud formation, fruit set and fruit size. Therefore, a vine that is deficient in Nitrogen can show low vine vigour. The leaves will turn a pale green and then ultimately yellow, while young shoots and petioles can become pink. The berries tend to be small and shoot growth greatly reduced."
-32,22,Phosporus,document,"Phosphorus is considered second only to nitrogen as the most essential nutrient to grapevine function. It is used in photophosphorylation, genetic transfer, the transportation of nutrients, energy production and the creation of the phospholipid cell membranes. Phosphorus deficiency shows a very distinct symptom that appears as red dots along the basal leaves, mid and terminal lobes. Over time the dots line up at right angles to each other and form dark red bars between the veins. The leaves can ultimately become hard and stiff."
-33,22,Potassium,document," Its deficiency develops when vines receive less K than what is required for normal growth and development, or with low soil pH levels (i.e., less than 5 for Vitis vinifera) that decrease the availability of potassium to the roots. Potassium is a mobile nutrient and in the case of deficiency, the upper (younger) leaves receive K rather than the lower (older) leaves, therefore reddening the leaves in the lower part of the canopy first."
-34,22,Calcium,document,"There is a little different from many of the other nutritional deficiencies in that it not so obvious in the leaves, but more obvious in the resulting fruit. Since Calcium regulates ripening of fruits and stimulates their colouring the result of a deficiency is a browning discoloration and rotting on the tips of grapes. The grapes will then desiccate and ultimately lead to fruit necrosis"
-35,6,"Flower-bud, flower and berry-drop",document,"This problem has been reported from the states of Punjab, Haryana and Rajasthan in North India. A number of factors such as improper nitrogen application, improper fertilization, ambient temperature, heavy crop load, uneven ripening and endogenous auxin deficiency at a particular stage of berry development are reported to cause the malady. To control bud, flower and berry drop, the following measures are suggested; making 0.5 cm wide girdle from the trunk about 10 days before full bloom which results in better berry set; judicious application of fertilizers under a given set of conditions, particularly N fertilizers, for ‘even’ ripening; 500 ppm ethrel at veraison stage should be applied; dipping of bunches in NAA 100ppm 10 days before ripening reduces berry drop, heavy irrigation at bloom should be avoided."
-36,6,Blossom-end rot,document,A black sunken spot develops at the blossom-end of the berry which later on spreads with water-soaked region around it. Defective calcium nutrition and assimilation appear to be the cause for it. Spray of 1.0 per cent calcium nitrate may correct it.
-37,6,Bunch stem necrosis,document,"Bunch stem necrosis can occur around bloom (when it is called early bunch stem necrosis) or at veraison or later. No pathogens are believed to cause this condition. However, certain weather conditions and vine nutrition seem to be associated with its occurrence. Low temperatures and high humidity around bloom or excessive rainfall after veraison may be related to its development. Imbalances between calcium and potassium as well as low levels of nitrogen in vines are other possible causes. Unaffected portions of clusters develop normal fruit quality."
-38,6,Berry shrivels,document,"This physiological disorder of grapevine affects berry development and decreases yield and quality of the crop. The causes of berry shrivel are unknown and no treatment exists for prevention or cure. Symptoms associated with berry shrivel are turgor loss, lack of sugar accumulation, high acidity contents and disturbed colour development through delayed anthocyanin synthesis mainly occurs in red varieties while rachis and pedicels do not show any kind of necrosis. Death of cells in the rachis are postulated to be involved in symptom development in cv. Cabernet Sauvignon and disturbed assimilate transportation to the berries may explain the ceased sugar accumulation and the shriveling of berries in addition to water loss."
-39,6,Hen and chicken,document,"This disorder is widely found in grape growing regions in different parts of the world. In this disorder, many shot berries surround a bold berry and it looking like a hen as a bold berry and chicken as shot berries hence, the name given hen and chicken disorder. It mainly happens to the deficiencies of zinc and boron micronutrients and improper fertilization. So, foliar application of zinc and boron lead to controlling this malady."
-40,6,Pink berries,document,"This disorder found in Maharashtra region in ‘Thompson Seedless grape, cultivar. It causes due to high temperature during ripening or indiscriminate use of ethrel for berry ripening which turns berries pink colour before harvest. Application of adequate doses of potash, 25-30 days prior to berry softening and treatment of benzyl adenine @ 10 ppm at berry softening stage helps to minimize the incidence of pink berry development in grapes."
-41,6,Water berries,document,"Water berries is associated with fruit ripening and most commonly occur shortly after berry softening. The affected berries become watery, soft, and flabby when ripe. They shrivel and dry by the time of harvest. Such berries mostly confine to the tip of the main rachis or its branches. It can be managed through avoiding of excess irrigation during berry development."
-42,6,Barrenness of vines,document,"It has become the major problem of vineyards of North Indian plains. The vines have developed unproductive wood. At the time of pruning, most of the shoots may dry up. Only a few fruiting canes produce crops and the bearing bunches have a few berries. It has been noticed that excessive vegetative growth of vines leads to over shading or immature elongated shoot growth resulting into failure of production of floral primordia development. Over irrigation, excessive nitrogen application, defective training, wrong pruning and keeping of high number of fruiting canes in early years of bearing are some reasons associated with this disorder. Some workers feel that it is due to lack of flower bud formation due to increased diameter of canes. There is direct relationship with vigour of shoots and dryness. Perlette and Anab-e-Shahi cultivars are prone to bareness. Barrenness of vines can be prevented by following proper pruning practices and plant protection measures. Avoid taking heavy yield from the young vines. The excessive growth can be checked by spraying cycocel (CCC) @ 1,000 ppm to 2,000 ppm. Just after fruit harvest. Inclusion of Bordeaux mixture 2:2: 250 spray during July-August to control fungal diseases can help in the reduction of barrenness."
-43,6,Chimera,document,Variegation is the appearance of differently colored zones in the leaves or other plant parts. Chimeral variegation is due to a genetic alteration of a portion of the plant such that it appears different from the rest of the plant. Variegated leaves may resemble virus symptoms.
-44,6,Guttation,document,"This physiological vine condition may occur on spring mornings when grapevine shoots are young. If vineyard soils are saturated with water and high humidity and calm weather minimize evaporation from leaf surfaces, a positive pressure of sap in vines can cause water droplets to form on the tips of serrations on the edge of the leaf. When that water evaporates, it may leave salt deposits on the leaf margins. Guttation is not harmful to the vine."
-45,6,Ozone injury,document,"Some grape varieties, including ‘Concord’ and ‘Chambourcin’, are highly susceptible to injury from ozone, which originates from lightning storms or industrial pollution. This injury becomes more severe with increased exposure to ozone. Therefore, the injury is most severe on older, basal leaves and less severe or non-existent on the very youngest leaves. Injury is concentrated on leaves on the canopy’s exposed exterior
-#Iozone.jpeg"
-46,0,Row Planning,document,"#H• Row Spacing: 
-- 9 to 12 feet (depends on equipment size)
-#H• Vine Spacing within Rows: 
-- 6 to 8 feet (depends on vine vigor) 
-#H• Number of Vines per Acre: 
- 6 x 9 =807
- 7 x 9 =691
- 8 x 9 =605 
- 6 x 10 = 726 
- 7 x 10 = 622 
- 8 x 10 = 545 
- 6 x 12 = 605 
- 7 x 12 = 518 
- 8 x 12 = 454 
-#H• Direction of Rows 
-- North / South Preferred
-- Across Slope or Contoured "
+31,22,Nitrogen,document,"#Initrogen.jpeg
+N is mostly acquired by plants in the nitrate and ammonium forms and for a small part as small organic molecules (e.g., amino acids, urea.) Nitrogen is necessary for many vine functions, including overall vine growth, fruit bud formation, fruit set and fruit size. Therefore, a vine that is deficient in Nitrogen can show low vine vigour. The leaves will turn a pale green and then ultimately yellow, while young shoots and petioles can become pink. The berries tend to be small and shoot growth greatly reduced."
+32,22,Phosporus,document,"#Iphos.jpeg
+Phosphorus is considered second only to nitrogen as the most essential nutrient to grapevine function. It is used in photophosphorylation, genetic transfer, the transportation of nutrients, energy production and the creation of the phospholipid cell membranes. Phosphorus deficiency shows a very distinct symptom that appears as red dots along the basal leaves, mid and terminal lobes. Over time the dots line up at right angles to each other and form dark red bars between the veins. The leaves can ultimately become hard and stiff."
+33,22,Potassium,document,"#Ipotta.jpeg
+ Its deficiency develops when vines receive less K than what is required for normal growth and development, or with low soil pH levels (i.e., less than 5 for Vitis vinifera) that decrease the availability of potassium to the roots. Potassium is a mobile nutrient and in the case of deficiency, the upper (younger) leaves receive K rather than the lower (older) leaves, therefore reddening the leaves in the lower part of the canopy first."
+34,22,Calcium,document,"#Icalcium.jpeg
+There is a little different from many of the other nutritional deficiencies in that it not so obvious in the leaves, but more obvious in the resulting fruit. Since Calcium regulates ripening of fruits and stimulates their colouring the result of a deficiency is a browning discoloration and rotting on the tips of grapes. The grapes will then desiccate and ultimately lead to fruit necrosis"
+35,6,"Flower-bud, flower and berry-drop",document,"#Iflowerb.jpeg
+This problem has been reported from the states of Punjab, Haryana and Rajasthan in North India. A number of factors such as improper nitrogen application, improper fertilization, ambient temperature, heavy crop load, uneven ripening and endogenous auxin deficiency at a particular stage of berry development are reported to cause the malady. To control bud, flower and berry drop, the following measures are suggested; making 0.5 cm wide girdle from the trunk about 10 days before full bloom which results in better berry set; judicious application of fertilizers under a given set of conditions, particularly N fertilizers, for ‘even’ ripening; 500 ppm ethrel at veraison stage should be applied; dipping of bunches in NAA 100ppm 10 days before ripening reduces berry drop, heavy irrigation at bloom should be avoided.
+"
+36,6,Blossom-end rot,document,"#Iblossomwe.jpeg
+A black sunken spot develops at the blossom-end of the berry which later on spreads with water-soaked region around it. Defective calcium nutrition and assimilation appear to be the cause for it. Spray of 1.0 per cent calcium nitrate may correct it."
+37,6,Bunch stem necrosis,document,"#Ibunchs.jpeg
+Bunch stem necrosis can occur around bloom (when it is called early bunch stem necrosis) or at veraison or later. No pathogens are believed to cause this condition. However, certain weather conditions and vine nutrition seem to be associated with its occurrence. Low temperatures and high humidity around bloom or excessive rainfall after veraison may be related to its development. Imbalances between calcium and potassium as well as low levels of nitrogen in vines are other possible causes. Unaffected portions of clusters develop normal fruit quality.
+"
+38,6,Berry shrivels,document,"This physiological disorder of grapevine affects berry development and decreases yield and quality of the crop. The causes of berry shrivel are unknown and no treatment exists for prevention or cure. Symptoms associated with berry shrivel are turgor loss, lack of sugar accumulation, high acidity contents and disturbed colour development through delayed anthocyanin synthesis mainly occurs in red varieties while rachis and pedicels do not show any kind of necrosis. Death of cells in the rachis are postulated to be involved in symptom development in cv. Cabernet Sauvignon and disturbed assimilate transportation to the berries may explain the ceased sugar accumulation and the shriveling of berries in addition to water loss.
+#Iberrys.jpeg"
+39,6,Hen and chicken,document,"#Ihenc.jpeg
+This disorder is widely found in grape growing regions in different parts of the world. In this disorder, many shot berries surround a bold berry and it looking like a hen as a bold berry and chicken as shot berries hence, the name given hen and chicken disorder. It mainly happens to the deficiencies of zinc and boron micronutrients and improper fertilization. So, foliar application of zinc and boron lead to controlling this malady.
+"
+40,6,Pink berries,document,"#Ipinkb.jpeg
+This disorder found in Maharashtra region in ‘Thompson Seedless grape, cultivar. It causes due to high temperature during ripening or indiscriminate use of ethrel for berry ripening which turns berries pink colour before harvest. Application of adequate doses of potash, 25-30 days prior to berry softening and treatment of benzyl adenine @ 10 ppm at berry softening stage helps to minimize the incidence of pink berry development in grapes.
+"
+41,6,Water berries,document,"#Iwaterb.jpeg
+Water berries is associated with fruit ripening and most commonly occur shortly after berry softening. The affected berries become watery, soft, and flabby when ripe. They shrivel and dry by the time of harvest. Such berries mostly confine to the tip of the main rachis or its branches. It can be managed through avoiding of excess irrigation during berry development."
+42,6,Barrenness of vines,document,"#Ibarren.jpeg
+It has become the major problem of vineyards of North Indian plains. The vines have developed unproductive wood. At the time of pruning, most of the shoots may dry up. Only a few fruiting canes produce crops and the bearing bunches have a few berries. It has been noticed that excessive vegetative growth of vines leads to over shading or immature elongated shoot growth resulting into failure of production of floral primordia development. Over irrigation, excessive nitrogen application, defective training, wrong pruning and keeping of high number of fruiting canes in early years of bearing are some reasons associated with this disorder. Some workers feel that it is due to lack of flower bud formation due to increased diameter of canes. There is direct relationship with vigour of shoots and dryness. Perlette and Anab-e-Shahi cultivars are prone to bareness. Barrenness of vines can be prevented by following proper pruning practices and plant protection measures. Avoid taking heavy yield from the young vines. The excessive growth can be checked by spraying cycocel (CCC) @ 1,000 ppm to 2,000 ppm. Just after fruit harvest. Inclusion of Bordeaux mixture 2:2: 250 spray during July-August to control fungal diseases can help in the reduction of barrenness.
+"
+43,6,Chimera,document,"#Ichimera.jpeg
+Variegation is the appearance of differently colored zones in the leaves or other plant parts. Chimeral variegation is due to a genetic alteration of a portion of the plant such that it appears different from the rest of the plant. Variegated leaves may resemble virus symptoms.
+"
+44,6,Guttation,document,"#Igutt.jpeg
+This physiological vine condition may occur on spring mornings when grapevine shoots are young. If vineyard soils are saturated with water and high humidity and calm weather minimize evaporation from leaf surfaces, a positive pressure of sap in vines can cause water droplets to form on the tips of serrations on the edge of the leaf. When that water evaporates, it may leave salt deposits on the leaf margins. Guttation is not harmful to the vine.
+
+"
+45,6,Ozone injury,document,"#Iozone.jpeg
+Some grape varieties, including ‘Concord’ and ‘Chambourcin’, are highly susceptible to injury from ozone, which originates from lightning storms or industrial pollution. This injury becomes more severe with increased exposure to ozone. Therefore, the injury is most severe on older, basal leaves and less severe or non-existent on the very youngest leaves. Injury is concentrated on leaves on the canopy’s exposed exterior"

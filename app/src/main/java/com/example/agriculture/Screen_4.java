@@ -1,14 +1,19 @@
 package com.example.agriculture;
 
+import static android.graphics.text.LineBreaker.JUSTIFICATION_MODE_INTER_WORD;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Display;
+import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -82,7 +87,7 @@ public class Screen_4 extends AppCompatActivity {
             String[] arr = content.split("\n");
             for (String elem : arr) {
                 if(elem.length()<2) return;
-                Log.e("Db contents", elem);
+//                Log.e("Db contents", elem);
                 layout.addView(getView(elem));
             }
         } catch (Exception e) {
@@ -95,11 +100,13 @@ public class Screen_4 extends AppCompatActivity {
         // 1. #H: headers, where text is bold
         // 2. #I: images
         // 3. normal text content
-
+        Log.i("comtent",content);
         String type = content.substring(0, 2);
         if (type.equals("#H")) {
             TextView textView = new TextView(this);
             textView.setText(content.substring(2));
+            textView.setTextSize((20));
+            textView.setGravity(Gravity.CENTER_HORIZONTAL);
             textView.setPadding(0,40,0,20);
             textView.setTypeface(null, Typeface.BOLD);
             return textView;
@@ -109,13 +116,31 @@ public class Screen_4 extends AppCompatActivity {
 //            InputStream image = getAssets().open(content.substring(2));
             Drawable d = Drawable.createFromStream(image, null);
             ImageView imageView = new ImageView(this);
+
             imageView.setImageDrawable(d);
             imageView.setPadding(0,30,0,30);
             imageView.setMinimumHeight(500);
             return imageView;
-        } else {
+        }else if(type.equals("#E")){
             TextView textView = new TextView(this);
+            textView.setText(content.substring(2));
+            textView.setTextSize(18);
+            textView.setGravity(Gravity.CENTER_HORIZONTAL);
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                textView.setJustificationMode(JUSTIFICATION_MODE_INTER_WORD);
+            }
+            textView.setPadding(0,40,0,20);
+            textView.setTypeface(null, Typeface.ITALIC);
+            return textView;
+
+
+        }
+
+        else {
+            TextView textView = new TextView(this);
+            textView.setTextColor(Color.parseColor("#616161"));
             textView.setText(content);
+            textView.setTextSize((16));
             return textView;
         }
     }
