@@ -19,6 +19,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -38,15 +39,16 @@ public class Screen_4 extends AppCompatActivity {
     private int id;
     private  String content,name;
     DatabaseHandler databaseHandler;
+
     //    TextView textView;
     LinearLayout layout,contactUs,plantCal;
     TextView ansTV;
     InfoAdapter adapter;
-    Spinner spinner1,spinner2;
+    AutoCompleteTextView spinner1,spinner2;
     RecyclerView recyclerView;
     Integer row=1,spacing=1;
     Integer constant = 43560;
-    
+    Boolean toShow;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,59 +59,50 @@ public class Screen_4 extends AppCompatActivity {
 
         layout = findViewById(R.id.linearLayout);
         ansTV = findViewById(R.id.ansTV);
-        double d = Math.ceil(constant*1.0 / row / spacing);
 
-        ansTV.setText((int) d + " vines");
+        toShow=false;
+
         id=getIntent().getIntExtra("id",0);
         content=getIntent().getStringExtra("content");
         name=getIntent().getStringExtra("name");
         getSupportActionBar().setTitle(name);
         appModels= databaseHandler.getModelsbyID(id);
         spinner1 =  findViewById(R.id.rows_spinner);
+        adapter = new InfoAdapter(this, appModels);
         spinner2= findViewById(R.id.vine_spinner);
         recyclerView=findViewById(R.id.recycle_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         contactUs = findViewById(R.id.contactUs);
         plantCal=findViewById(R.id.plantCal);
-        adapter=new InfoAdapter(this,appModels);
-        ArrayAdapter<CharSequence> adapter1 = ArrayAdapter.createFromResource(this,
-                R.array.row_array, android.R.layout.simple_spinner_item);
-        ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(this,
-                R.array.spacing_array, android.R.layout.simple_spinner_item);
-// Specify the layout to use when the list of choices appears
-        adapter1.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner2.setAdapter(adapter2);
-// Apply the adapter to the spinner
-        spinner1.setAdapter(adapter1);
-        spinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-            @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                String value =((String) parent.getItemAtPosition(position));
-                row = Integer.parseInt(value.substring(0,1));
-                double d = Math.ceil(constant*1.0 / row / spacing);
-                Log.i("DoubleValue", String.valueOf(d));
-                ansTV.setText((int) d + " vines");
-            }
+        ArrayAdapter arrayAdapter1 = new ArrayAdapter(this,R.layout.dropdown_item,getResources().getStringArray(R.array.row_array));
+        ArrayAdapter arrayAdapter2 = new ArrayAdapter(this,R.layout.dropdown_item,getResources().getStringArray(R.array.spacing_array));
 
+
+        spinner1.setAdapter(arrayAdapter1);
+        spinner2.setAdapter(arrayAdapter2);
+        spinner1.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onNothingSelected(AdapterView<?> parent) {
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                String value = (String) adapterView.getItemAtPosition(i);
+                row = Integer.parseInt(value.substring(0,1));
+                double d = Math.floor(constant*1.0 / row / spacing);
+                Log.i("DoubleValue", String.valueOf(d));
+                if(toShow){
+                    ansTV.setText(String.valueOf((int) d));
+                }
 
             }
         });
-        spinner2.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        spinner2.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                String value =((String) parent.getItemAtPosition(position));
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                String value =((String) adapterView.getItemAtPosition(i));
+                ansTV.setVisibility(View.VISIBLE);
                 spacing = Integer.parseInt(value.substring(0,1));
-                double d = constant*1.0 / row / spacing;
+                double d = Math.floor(constant*1.0 / row / spacing);
                 Log.i("DoubleValue", String.valueOf(d));
-                ansTV.setText((int) d + " vines");
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-
+                toShow=true;
+                ansTV.setText(String.valueOf((int) d));
             }
         });
         if(name.equalsIgnoreCase("plant protection")){
@@ -158,7 +151,9 @@ public class Screen_4 extends AppCompatActivity {
                 if(elem.length()<2) return;
 //                Log.e("Db contents", elem);
                 layout.addView(getView(elem));
+
             }
+
         } catch (Exception e) {
             Log.e("sdfdsd", e.getMessage());
             Toast.makeText(this, "Failed to load image", Toast.LENGTH_SHORT).show();

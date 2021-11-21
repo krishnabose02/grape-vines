@@ -5,9 +5,9 @@
     <string name="login">login</string>
 
     <string-array name="row_array">
-        <item>3 feet</item>
-        <item>6 feet</item>
         <item>9 feet</item>
+        <item>10 feet</item>
+        <item>11 feet</item>
 
     </string-array>
     <string-array name="spacing_array">

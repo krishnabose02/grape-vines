@@ -1,5 +1,6 @@
 package com.example.agriculture.adapter;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.view.LayoutInflater;
@@ -39,7 +40,7 @@ public class InfoAdapter extends RecyclerView.Adapter<InfoAdapter.infoViewHolder
     }
 
     @Override
-    public void onBindViewHolder(@NonNull @org.jetbrains.annotations.NotNull InfoAdapter.infoViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull @org.jetbrains.annotations.NotNull InfoAdapter.infoViewHolder holder, @SuppressLint("RecyclerView") int position) {
        holder.text.setText(data.get(position).getName());
        holder.itemView.setOnClickListener(new View.OnClickListener() {
            @Override
