@@ -111,6 +111,7 @@ btn.setVisibility(View.GONE);
         }
         else if (type.equals("#P")){
             TextView textView = new TextView(this);
+            content.replace("\\n",System.getProperty("line.separator"));
             tv.setText(content.substring(2));
             return textView;
         }

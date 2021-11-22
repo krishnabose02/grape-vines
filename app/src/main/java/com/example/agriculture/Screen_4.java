@@ -84,8 +84,8 @@ public class Screen_4 extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String value = (String) adapterView.getItemAtPosition(i);
-                row = Integer.parseInt(value.substring(0,1));
-                double d = Math.floor(constant*1.0 / row / spacing);
+                row = Integer.parseInt(value.substring(0,2).trim());
+                double d = Math.round((constant*1.0) / (row * spacing));
                 Log.i("DoubleValue", String.valueOf(d));
                 if(toShow){
                     ansTV.setText(String.valueOf((int) d));
@@ -98,8 +98,8 @@ public class Screen_4 extends AppCompatActivity {
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String value =((String) adapterView.getItemAtPosition(i));
                 ansTV.setVisibility(View.VISIBLE);
-                spacing = Integer.parseInt(value.substring(0,1));
-                double d = Math.floor(constant*1.0 / row / spacing);
+                spacing = Integer.parseInt(value.substring(0,2).trim());
+                double d = Math.round((constant*1.0) / (row*spacing));
                 Log.i("DoubleValue", String.valueOf(d));
                 toShow=true;
                 ansTV.setText(String.valueOf((int) d));

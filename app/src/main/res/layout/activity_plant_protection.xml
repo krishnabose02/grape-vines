@@ -16,7 +16,7 @@
     >
 
         <AutoCompleteTextView
-            android:hint="Select Disease"
+            android:hint="Select"
             android:id="@+id/autoCompleteTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
