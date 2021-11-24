@@ -21,6 +21,7 @@ import android.widget.Toast;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Objects;
 
 public class SpinnerItemActivity extends AppCompatActivity {
     private int id;
@@ -61,7 +62,6 @@ btn.setVisibility(View.GONE);
                 if(elem.length()<2) return;
 //                Log.e("Db contents", elem);
                 layout.addView(getView(elem));
-
             }
 
         } catch (Exception e) {
@@ -111,8 +111,8 @@ btn.setVisibility(View.GONE);
         }
         else if (type.equals("#P")){
             TextView textView = new TextView(this);
-            content.replace("\\n",System.getProperty("line.separator"));
-            tv.setText(content.substring(2));
+            String newContent = content.replace("qq", Objects.requireNonNull(System.getProperty("line.separator")));
+            tv.setText(newContent.substring(2));
             return textView;
         }
 
