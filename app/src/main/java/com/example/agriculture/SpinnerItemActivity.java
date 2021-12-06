@@ -79,7 +79,7 @@ btn.setVisibility(View.GONE);
         if (type.equals("#H")) {
             TextView textView = new TextView(this);
             textView.setText(content.substring(2));
-            textView.setTextSize((20));
+            textView.setTextSize((22));
             textView.setGravity(Gravity.CENTER_HORIZONTAL);
             textView.setPadding(0,40,0,20);
             textView.setTypeface(null, Typeface.BOLD);
@@ -98,7 +98,7 @@ btn.setVisibility(View.GONE);
         }else if(type.equals("#E")){
             TextView textView = new TextView(this);
             textView.setText(content.substring(2));
-            textView.setTextSize(18);
+            textView.setTextSize(20);
             textView.setGravity(Gravity.CENTER_HORIZONTAL);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
                 textView.setJustificationMode(JUSTIFICATION_MODE_INTER_WORD);
@@ -115,12 +115,21 @@ btn.setVisibility(View.GONE);
             tv.setText(newContent.substring(2));
             return textView;
         }
+        else if(type.equals("• ")) {
+            TextView textView = new TextView(this);
+            textView.setTextColor(Color.parseColor("#616161"));
+            textView.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_baseline_fiber_manual_record_24, 0, 0, 0);
+            textView.setText(content.substring(1));
 
+            textView.setCompoundDrawablePadding(10);
+            textView.setTextSize((18));
+            return textView;
+        }
         else {
             TextView textView = new TextView(this);
             textView.setTextColor(Color.parseColor("#616161"));
             textView.setText(content);
-            textView.setTextSize((16));
+            textView.setTextSize((18));
             return textView;
         }
     }

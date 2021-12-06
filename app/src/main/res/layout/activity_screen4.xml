@@ -41,6 +41,7 @@
             >
 
             <AutoCompleteTextView
+
                 android:hint="Select Vine spacing between rows"
                 android:id="@+id/vine_spinner"
                 android:layout_width="match_parent"
@@ -67,7 +68,7 @@
 
                 android:textColor="#000"
 
-                android:textSize="18sp"
+                android:textSize="20sp"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"/>
             <TextView
@@ -77,7 +78,7 @@
 
                 android:textColor="#000"
                 android:text="-"
-                android:textSize="18sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>

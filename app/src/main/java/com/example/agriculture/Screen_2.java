@@ -17,7 +17,7 @@ public class Screen_2 extends AppCompatActivity {
         tapToInfoButton=findViewById(R.id.tap_to_info_button);
         tapToInfoButton.setOnClickListener(v -> {
 
-            Intent intent2=new Intent(Screen_2.this,Screen3.class);
+            Intent intent2=new Intent(this,Screen3.class);
             startActivity(intent2);
         });
 
